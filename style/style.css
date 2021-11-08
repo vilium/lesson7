@@ -15,6 +15,10 @@ a{
 }
 a:hover{
     color: black;
+    transition: .4s;
+}
+ul{
+    padding: 0;
 }
 ul li{
     list-style: none;
@@ -27,10 +31,8 @@ ul li{
     margin: auto;
 }
 .menu{
-    display: flex;
     width: 100%;
     padding: 32px 0 24px;
-    justify-content: space-around;
     border-bottom: 1px solid #828282;
 }
 .menu__list{
@@ -38,8 +40,8 @@ ul li{
     justify-content: space-between;
     font-size: 18px;
 }
-.menu__list li{
-    padding-left: 32px;
+.langru{
+    color: #828282;
 }
 .block{
     margin-top: 32px;
@@ -52,6 +54,7 @@ ul li{
 }
 .block__me{
     width: 155px;
+    align-self: center;
 }
 .block__lang{
     transform:rotate(-90deg);
