@@ -83,3 +83,35 @@ img{
 .about__me p{
     padding-bottom: 35px;
 }
+.skills{
+    display: flex;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 110px;
+    margin-top: 48px;
+}
+.skills__title{
+    font-size: 34px;
+    margin-bottom: 70px;
+}
+.icon__title{
+    font-size: 14px;
+    color: #828282;
+}
+.skills__text{
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+.skills__card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+.icon{
+    width: 90px;
+    height: 90px;
+}
+.star{
+    width: 26px;
+    height: 26px;
+}
